@@ -5,32 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lenni art</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="body">
   <header class="page-header">
     <div class="page-header__container">
       <a class="page-header__logo" href="index.html">
-        <!-- <img src="/src/img/logo.svg" alt="">   -->
-        <svg class="page-header__logo-img" width="202" heigth="147">
-          <use xlink:href="assets/icons/symbols.svg#logo">
-
-        </svg>>
+        <svg class="page-header__logo-img" width="202" height="147">
+          <use xlink:href="assets/icons/symbols.svg#logo" class="page-header__logo-img">
+        </svg>
       </a>
       <nav class="page-header__nav">
         <a href="#" class="page-header__nav-link">Мероприятия</a>
-        <a href="#" class="page-header__nav-link">Блог</a>
+        <a href="events.html" class="page-header__nav-link">Блог</a>
         <a href="#" class="page-header__nav-link">О нас</a>
         <a href="#" class="page-header__nav-link"> Контакты</a>
       </nav>
-      <a href="#" class="page-header__user-btn"> Выйти</a>
+      <a href="#" class=" btn page-header__user-btn"> Войти</a>
     </div>
   </header>
   <main class="main">
     <div class="home">
       <header class="main-header home__main-header">
-        <h1 class="main-header__title">арт — пространство</h1>
+        <h1 class="main-header__title">Арт — пространство</h1>
         <picture class="main-header__picture">
           <svg class="main-header__img" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 325" fill="none">
             <path d="M485.389 317.073V0H0V325H647.345V317.073H485.389Z" fill="#1F1E1E" />
